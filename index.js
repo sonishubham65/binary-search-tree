@@ -1,5 +1,5 @@
 /**
- * @description: Function for creating a new Node for every element.
+ * @description: Class for creating a new Node for every element.
  * @param: data
  */
 class Node {
@@ -10,6 +10,9 @@ class Node {
     }
 }
 
+/**
+ * @description: Class for creating a new BST.
+ */
 class BST {
     constructor() {
         this.root = null;
@@ -44,6 +47,9 @@ class BST {
         })
     }
 }
+/**
+ * @description: Self invoking function.
+ */
 (async () => {
     try {
         let bst = new BST();
