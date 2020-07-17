@@ -60,5 +60,4 @@ class BST {
     } catch (e) {
         console.log(e);
     }
-
 })();
