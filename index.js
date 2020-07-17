@@ -45,11 +45,20 @@ class BST {
     }
 }
 (async () => {
-    let bst = new BST();
-    await bst.insert(50);
-    await bst.insert(20);
-    await bst.insert(10);
-    await bst.insert(40);
-    await bst.insert(30);
-    console.log(JSON.stringify(bst));
+    try {
+        let bst = new BST();
+        await bst.insert(8);
+        await bst.insert(3);
+        await bst.insert(10);
+        await bst.insert(1);
+        await bst.insert(6);
+        await bst.insert(4);
+        await bst.insert(7);
+        await bst.insert(14);
+        await bst.insert(13);
+        console.log(JSON.stringify(bst));
+    } catch (e) {
+        console.log(e);
+    }
+
 })();
