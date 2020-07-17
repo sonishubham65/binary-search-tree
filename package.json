@@ -1,0 +1,21 @@
+{
+  "name": "jnf",
+  "version": "1.0.0",
+  "description": "> Author: [Shubham](http://sonishubham.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonishubham65/bst-with-promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonishubham65/bst-with-promise/issues"
+  },
+  "homepage": "https://github.com/sonishubham65/bst-with-promise#readme"
+}
