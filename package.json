@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sonishubham65/bst-with-promise/issues"
   },
-  "homepage": "https://github.com/sonishubham65/bst-with-promise#readme"
+  "homepage": "https://github.com/sonishubham65/bst-with-promise#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }

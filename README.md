@@ -1,4 +1,4 @@
-# Binary Search Tree with Promise.
+# Binary Search Tree in Javascript
 > Author: [Shubham](http://sonishubham.com/)
 
 ### RUN
